@@ -1,0 +1,249 @@
+/* Colores */
+
+:root {
+    --color-primario: #f5f5f5; 
+    --color-secundario: #3a3a3a; 
+    --color-heading: #e63946; 
+    --color-footer: #a8dadc; 
+    --color-texto: #ffffff;
+}
+
+body {
+    background-color: var(--color-primario);
+    color: var(--color-secundario);
+}
+
+header {
+    background-color: var(--color-heading);
+    color: var(--color-texto);
+}
+
+footer {
+    background-color: var(--color-footer);
+    color: var(--color-secundario);
+}
+
+/* Resto General */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: var(--color-texto);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sección de imágenes 1 */
+
+.image-container1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.image-container1 .column {
+    width: 30%; 
+    text-align: center;
+    margin-right: 10px;
+}
+
+.image-container1 .column:last-child {
+    margin-right: 0;
+}
+
+.image-container1 .image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.image-container1 h3 {
+    font-size: 1.2em;
+    text-align: left;
+    margin: 15px 0 10px;
+    color: var(--color-secundario);
+}
+
+.image-container1 p {
+    font-size: 1em;
+    text-align: left;
+    line-height: 1.5;
+    color: var(--color-secundario);
+}
+
+/* Sección de imágenes 2 */
+
+.image-container2 {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.image-container2 img {
+    width: 23%; 
+    height: auto;
+    margin: 0 10px;
+    border-radius: 8px; 
+}
+
+
+/* Como Usar HAPTA */
+
+.uso-cambioBordes {
+    margin: 0 20px;
+    border-radius: 8px 8px 0 0;
+}
+
+/* Sección de imágenes 3 */
+
+.image-container3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0 20px;
+    border-radius: 0;
+}
+
+.image-container3 .column {
+    width: 30%; 
+    text-align: center;
+    margin-right: 10px;
+}
+
+.image-container3 .column:last-child {
+    margin-right: 0;
+}
+
+.image-container3 .image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.image-container3 h3 {
+    font-size: 1.2em;
+    margin: 15px 0 10px;
+    color: var(--color-secundario);
+}
+
+.image-container3 p {
+    font-size: 1em;
+    line-height: 1.5;
+    color: var(--color-secundario);
+}
+
+/* Sección de imágenes 4 */
+
+.image-container4 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 0 20px 20px;
+    border-radius: 0 0 8px 8px;
+}
+
+.image-container4 .column {
+    width: 30%; 
+    text-align: center;
+    margin-right: 10px;
+}
+
+.image-container4 .column:last-child {
+    margin-right: 0;
+}
+
+.image-container4 .image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.image-container4 h3 {
+    font-size: 1.2em;
+    margin: 15px 0 10px;
+    color: var(--color-secundario);
+}
+
+.image-container4 p {
+    font-size: 1em;
+    line-height: 1.5;
+    color: var(--color-secundario);
+}
+
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #ffffff;
+    border-radius: 8px; 
+}
+
+.video1 iframe {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 20px;
+} 
+
+h2 {
+    color: var(--color-heading);
+}
+
+ul {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: var(--color-heading);
+    text-decoration: none;
+}
+
+/* Desplazamiento suave para el scroll */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+
+
